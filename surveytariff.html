@@ -67,8 +67,8 @@
    <!-- Navbar & Carousel Start -->
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
-        <a href="index.html" class="navbar-brand p-0">
-            <h1 class="m-0"><i class="fa fa-hard-hat me-2"></i>RRR-LSS </h1>
+        <a href="./" class="navbar-brand p-0">
+            <h1 class="m-0"><i class="fa fa-hard-hat me-2"></i>RRR-LSS</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>
@@ -79,12 +79,24 @@
                 <a href="./about" class="nav-item nav-link">About</a>
                 <a href="./service" class="nav-item nav-link">Services</a>
                 <a href="./blog" class="nav-item nav-link">Projects</a>
-                <a href="./surveytariff" class="nav-item nav-link active">Survey Tariff</a> <!-- Dinagdag ko ito -->
+
+                <!-- Dropdown for Engineering Resources -->
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Engineering Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./surveytariff" class= "nav-item nav-link active">Survey Tariff Guide (PDF)</a></li>
+                        <li><a class="dropdown-item" href="https://lamsportal.lmb.gov.ph/transaction-inquiry" target="_blank">Land Management Portal</a></li>
+                    </ul>
+                </div>
+
                 <a href="./contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
 </div>
+
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
